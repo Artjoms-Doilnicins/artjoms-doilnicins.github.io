@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Artjoms Doiļnicins | CSS Portfolio</title>
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-desktop">
+                <h1><a href="index.html">Artjoms Doiļnicins</a></h1>
+
+                <ul class="">
+                    <li class="nav-item">
+                        <a href="index.html#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="button cv-btn"
+                            href="https://artjoms-doilnicins.github.io/src/assets/cv.pdf"
+                            target="_blank"
+                            >CV</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger" id="nav-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-mobile" id="mobile-menu">
+                <button
+                    class="close-mobile"
+                    id="close-mobile"
+                    aria-label="Close menu"
+                >
+                    &times;
+                </button>
+                <ul>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contacts</a></li>
+                    <li>
+                        <a
+                            href="https://artjoms-doilnicins.github.io/portfolio/src/assets/cv.pdf"
+                            target="_blank"
+                            >CV</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="intro">
+            <p class="name">Hello, my name is <span>Artjoms 👨🏻‍💻</span></p>
+            <h2>I am a Web Developer,</h2>
+            <h3>and here are some of my projects:</h3>
+        </section>
+
+        <!-- PROJECTS -->
+        <div class="gradient-line"></div>
+        <div class="projects-container" id="projects-container"></div>
+
+        <!-- ABOUT -->
+        <div class="gradient-line"></div>
+        <section id="about">
+            <p class="name"><span>About me</span></p>
+            <!-- <h2>My skills and experience:</h2> -->
+
+            <div class="skills">
+                <p><strong>Personal Projects:</strong></p>
+                <ul>
+                    <li>Developed a <strong>Vue.js</strong> application to help learn Latvian vocabulary using <strong>Composition API</strong> and <strong>Tailwind CSS</strong>.</li>
+                    <li>Collaborating on two side projects: a local educational platform and a gym training program app.</li>
+                    <li>Focus on reactive state management and maintainable, modular architecture.</li>
+                </ul>
+
+                <p><strong>Professional Experience:</strong></p>
+                <ul>
+                    <li>Development of e-commerce solutions using <strong>Magento 2</strong> and <strong>Adobe Commerce</strong> with focus on <strong>Hyvä</strong> front-end optimization.</li>
+                    <li>Development of responsive interfaces utilizing <strong>Tailwind CSS</strong> and <strong>Alpine.js</strong>.</li>
+                    <li>Collaborative project delivery using <strong>Docker</strong> containers for environment consistency.</li>
+                    <li>Task management and version control with <strong>Jira</strong> and <strong>GitHub</strong>.</li>
+                    <li>Support active projects through bug fixes and feature development, utilizing <strong>Chrome DevTools</strong> and <strong>Xdebug</strong> for troubleshooting.</li>
+                    <li>Work on newly initiated builds, ensuring clean implementation of core functionality.</li>
+                    <li>Contributed to three different cross-functional teams, applying <strong>Kanban</strong> and <strong>Scrum</strong> methodologies.</li>
+                    <li>Direct client communication to clarify requirements and provide updates.</li>
+                </ul>
+
+                <p><strong>Bootcamp Experience:</strong></p>
+                <ul>
+                    <li>Two-week intensive team project: built a full e-commerce website using <strong>Laravel</strong>.</li>
+                    <li>Integrated <strong>Agile</strong> methodologies and <strong>Trello</strong> for project planning.</li>
+                    <li>Mastered technical skills in authentication, UI/UX, and <strong>Tailwind CSS</strong>.</li>
+                    <li>Implemented core features: search, PDP/PLP, and checkout system.</li>
+                    <li>Successfully presented functional product to a live audience.</li>
+                </ul>
+
+                <p><strong>HTML5:</strong> Semantic markup, accessibility.</p>
+                <p>
+                    <strong>CSS3, Tailwind CSS:</strong> Responsive design,
+                    Flexbox, Grid, variables, transitions, animations and
+                    configuration customization.
+                </p>
+                <p>
+                    <strong>JavaScript (ES6+):</strong> DOM manipulation, event
+                    handling, arrow functions, destructuring, modular code
+                    structure, basic algorithms and data structures.
+                </p>
+                <p>
+                    <strong>Asynchronous Programming:</strong> Promises,
+                    async/await, API integration with fetch.
+                </p>
+                <p>
+                    <strong>Version Control:</strong> Git (branching, merging,
+                    rebasing), GitHub (PRs, collaboration).
+                </p>
+                <p>
+                    <strong>Development Tools:</strong> Docker for containerization, VS Code (ESLint, Prettier, Tailwind IntelliSense), Chrome DevTools for debugging, performance optimization, and DOM analysis, Xdebug for PHP debugging.
+                </p>
+                <p>
+                    <strong>Project Management:</strong> Jira, Trello, Agile methodologies (Kanban, Scrum).
+                </p>
+            </div>
+        </section>
+
+        <!-- CONTACT ME -->
+        <div class="gradient-line"></div>
+
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contact me</h2>
+                <p>
+                    I am always interested in hearing about web development
+                    roles, especially those that involve collaborative projects and opportunities to grow my skills.
+                </p>
+                <a class="button" href="mailto:artjoms.doilnicins@gmail.com"
+                    >E-mail me</a
+                >
+            </div>
+        </section>
+
+        <div class="gradient-line"></div>
+
+        <footer class="footer">
+            <h4>Artjoms Doiļnicins | Web Developer</h4>&nbsp;
+            <span id="copyright"></span>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,1 +1,3 @@
-# artjoms-doilnicins.github.io
+## CSS Portfolio
+
+This project is a personal portfolio website.
